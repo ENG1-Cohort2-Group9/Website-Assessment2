@@ -151,7 +151,7 @@ export function AppLayout() {
             label="Weeks"
             onClick={closeMobile}
           >
-            {[...Array(7)].map((_v, idx) => (
+            {[...Array(11)].map((_v, idx) => (
               <CNavLink
                 to={`/weeks/${idx + 1}`}
                 label={`Week ${idx + 1}`}

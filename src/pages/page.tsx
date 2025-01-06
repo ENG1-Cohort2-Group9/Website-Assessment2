@@ -7,11 +7,15 @@ import Week4 from "./weeks/Week4";
 import Week5 from "./weeks/Week5";
 import Week6 from "./weeks/Week6";
 import Week7 from "./weeks/Week7";
+import Week8 from "./weeks/Week8";
+import Week9 from "./weeks/Week9";
+import Week10 from "./weeks/Week10";
+import Week11 from "./weeks/Week11";
 import { Link } from "react-router-dom";
 import { FaExternalLinkAlt, FaInfo } from "react-icons/fa";
 
 export function RootPage() {
-  const weeks = [Week1, Week2, Week3, Week4, Week5, Week6, Week7];
+  const weeks = [Week1, Week2, Week3, Week4, Week5, Week6, Week7, Week8, Week9, Week10, Week11];
 
   return (
     <>

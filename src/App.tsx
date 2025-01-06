@@ -14,6 +14,10 @@ import Week4 from "./pages/weeks/Week4";
 import Week5 from "./pages/weeks/Week5";
 import Week6 from "./pages/weeks/Week6";
 import Week7 from "./pages/weeks/Week7";
+import Week8 from "./pages/weeks/Week8";
+import Week9 from "./pages/weeks/Week9";
+import Week10 from "./pages/weeks/Week10";
+import Week11 from "./pages/weeks/Week11";
 import { ModalsProvider } from "@mantine/modals";
 import { RootPage } from "./pages/page";
 import Arch1Page from "./pages/arch1/page";
@@ -93,6 +97,22 @@ export default function App() {
                 <Route
                   path="7"
                   element={<Week7 />}
+                />
+                <Route
+                  path="8"
+                  element={<Week8 />}
+                />
+                <Route
+                  path="9"
+                  element={<Week9 />}
+                />
+                <Route
+                  path="10"
+                  element={<Week10 />}
+                />
+                <Route
+                  path="11"
+                  element={<Week11 />}
                 />
               </Route>
             </Route>

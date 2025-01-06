@@ -40,6 +40,27 @@ export function WeekList() {
         component={ReactNavLink}
         to="/weeks/7"
       />
+      <NavLink
+        label={"Week 8"}
+        component={ReactNavLink}
+        to="/weeks/8"
+      />
+      <NavLink
+        label={"Week 9"}
+        component={ReactNavLink}
+        to="/weeks/9"
+      />
+      <NavLink
+        label={"Week 10"}
+        component={ReactNavLink}
+        to="/weeks/10"
+      />
+      <NavLink
+        label={"Week 11"}
+        component={ReactNavLink}
+        to="/weeks/11"
+      />
+      
     </>
   );
 }
