@@ -10,7 +10,7 @@ export default function Week3() {
           We set up more realistic time demands for our plan this week, given
           the need for a customer meeting. This can be seen below:
         </Text>
-        <CustomImage src={"/images/wk3-1.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-1.png`} />
         <Text>
           Despite the idea of this chart being a high-level plan for the
           progression of this project, we plan to break this plan down slightly
@@ -19,7 +19,7 @@ export default function Week3() {
           We also set up a progress tracker with a Work Breakdown Structure
           chart, shown below:
         </Text>
-        <CustomImage src={"/images/wk3-2.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-2.png`} />
         <Text>
           *Implementation has its own flow planning and is too large to include
           in this diagram.
@@ -30,11 +30,11 @@ export default function Week3() {
           implementation section, as it follows the SCRUM cycle style explained
           in the main document. These flowcharts are shown below:
         </Text>
-        <CustomImage src={"/images/wk3-3.png"} />
-        <CustomImage src={"/images/wk3-4.png"} />
-        <CustomImage src={"/images/wk3-5.png"} />
-        <CustomImage src={"/images/wk3-6.png"} />
-        <CustomImage src={"/images/wk3-7.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-3.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-4.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-5.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-6.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk3-7.png`} />
       </Stack>
     </>
   );

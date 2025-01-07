@@ -21,6 +21,7 @@ import { LayoutContext } from "./LayoutContext";
 import { IoDocumentText } from "react-icons/io5";
 import { MdArchitecture } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa6";
+import { GrTest } from "react-icons/gr";
 
 export function AppLayout() {
   const [mobileOpened, { toggle: toggleMobile, close: closeMobile }] =
@@ -98,7 +99,7 @@ export function AppLayout() {
               to={"/"}
               onClick={closeMobile}
             >
-              <Title>ENG1 CH2 GRP3</Title>
+              <Title>ENG1 CH2 GRP9</Title>
             </Text>
           </Group>
         </AppShell.Header>
@@ -157,6 +158,20 @@ export function AppLayout() {
                 label={`Week ${idx + 1}`}
               />
             ))}
+          </CNavLink>
+          <CNavLink
+            to="/testing"
+            label="Testing"
+            leftSection={<GrTest />}
+            >
+            <CNavLink
+              to="/testing/automated"
+              label="Automated"
+            />
+            <CNavLink
+              to="/testing/manual"
+              label="Manual"
+            />
           </CNavLink>
           <CNavLink
             to="/licenses"

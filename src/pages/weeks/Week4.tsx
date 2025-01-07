@@ -11,14 +11,14 @@ export default function Week4() {
           deadlines for each section of the project. The finalised plan can be
           seen below:
         </Text>
-        <CustomImage src={"/images/wk4-1.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk4-1.png`} />
         <Text>
           We also updated the progress tracker to show what is done/what needs
           to be.
           <br />
           This will be added onto the end of each week from now on.
         </Text>
-        <CustomImage src={"/images/wk4-2.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk4-2.png`} />
       </Stack>
     </>
   );

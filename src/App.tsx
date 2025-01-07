@@ -7,6 +7,9 @@ import { AppLayout } from "./_components/AppShell";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { WeekList } from "./pages/weeks/page";
 import LicensePage from "./pages/licenses/page";
+import TestingPage from "./pages/testing/page";
+import AutomatedTesting from "./pages/testing/automated";
+import ManualTesting from "./pages/testing/manual";
 import Week1 from "./pages/weeks/Week1";
 import Week2 from "./pages/weeks/Week2";
 import Week3 from "./pages/weeks/Week3";
@@ -47,6 +50,23 @@ export default function App() {
                 path="licenses"
                 element={<LicensePage />}
               />
+              <Route
+                path="testing"
+                >
+                <Route
+                  index
+                  element={<TestingPage />}
+                />
+                <Route
+                  path="automated"
+                  element={<AutomatedTesting />}
+                />
+                <Route
+                  path="manual"
+                  element={<ManualTesting />}
+                />
+                </Route>
+              
               <Route path="arch1">
                 <Route
                   index

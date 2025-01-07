@@ -12,7 +12,7 @@ export default function Week1() {
           outline for the process and orders necessary to complete the project.
           This can be seen below:
         </Text>
-        <CustomImage src={"/images/wk1-1.png"} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/wk1-1.png`} />
       </Stack>
     </>
   );

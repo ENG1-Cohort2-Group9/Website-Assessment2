@@ -6,7 +6,7 @@ export default function Week6() {
     <>
       <Title>Week 6</Title>
       <Stack>
-        <CustomImage src={"/images/wk6-1.png"} />
+      <CustomImage src={`${import.meta.env.BASE_URL}images/wk6-1.png`} />
       </Stack>
     </>
   );
