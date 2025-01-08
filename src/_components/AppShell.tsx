@@ -22,6 +22,7 @@ import { IoDocumentText } from "react-icons/io5";
 import { MdArchitecture } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa6";
 import { GrTest } from "react-icons/gr";
+import { FaUsers} from "react-icons/fa";
 
 export function AppLayout() {
   const [mobileOpened, { toggle: toggleMobile, close: closeMobile }] =
@@ -125,6 +126,13 @@ export function AppLayout() {
                 <FaJava />
               </Group>
             }
+            rightSection={<FaExternalLinkAlt opacity={0.5} />}
+            external
+          />
+                    <CNavLink
+            to="https://www.dropbox.com/scl/fi/985mr4175hphiokng6aur/User-Testing-for-UniSim.papert?rlkey=tvqapan8oved85lomq892k8tc&dl=0"
+            label="User Evaluation"
+            leftSection={<FaUsers />}
             rightSection={<FaExternalLinkAlt opacity={0.5} />}
             external
           />
