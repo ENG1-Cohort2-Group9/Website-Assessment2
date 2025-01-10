@@ -130,7 +130,7 @@ export function AppLayout() {
             external
           />
                     <CNavLink
-            to="https://www.dropbox.com/scl/fi/985mr4175hphiokng6aur/User-Testing-for-UniSim.papert?rlkey=tvqapan8oved85lomq892k8tc&dl=0"
+            to="https://www.dropbox.com/scl/fi/985mr4175hphiokng6aur/User-Evaluation-for-UniSim.papert?rlkey=tvqapan8oved85lomq892k8tc&dl=0"
             label="User Evaluation"
             leftSection={<FaUsers />}
             rightSection={<FaExternalLinkAlt opacity={0.5} />}
