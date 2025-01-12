@@ -111,14 +111,14 @@ export function AppLayout() {
             leftSection={<FaHome />}
           />
           <CNavLink
-            to="https://github.com/archessmn/ENG1"
+            to="https://github.com/ENG1-Cohort2-Group9/Assessment-2"
             label="GitHub"
             leftSection={<FaGithub />}
             rightSection={<FaExternalLinkAlt opacity={0.5} />}
             external
           />
           <CNavLink
-            to="https://drive.google.com/drive/folders/1J6WqC8ZL57_cKZNBVh6YP5StXt0D0F5L?usp=sharing"
+            to="https://drive.google.com/drive/u/1/folders/1M3vroH6AywbhHFex6nZibBRfIAgvQYHz"
             label="Deliverables + Jar"
             leftSection={
               <Group>

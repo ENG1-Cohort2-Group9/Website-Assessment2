@@ -7,13 +7,15 @@ export default function ManualTesting() {
       <Title>Manual Testing</Title>
       <Stack>
         <Text>
-          Placeholder for test coverage results - images below etc..
+          Please find below the manual testing tables
           <br />
-          Will eventually comprise descriptions of manual test cases we 
-          designed to test the parts of code that could not be covered by 
-          the automated tests.
         </Text>
-        <CustomImage src={`${import.meta.env.BASE_URL}images/wk2-1.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/test-ur.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/test-fr.png`} />
+        <Text>
+          Please find below the test plan
+        </Text>
+        <CustomImage src={`${import.meta.env.BASE_URL}images/test-plan.png`} />
       </Stack>
     </>
   );

@@ -7,11 +7,15 @@ export default function AutomatedTesting() {
       <Title>Automated Testing</Title>
       <Stack>
         <Text>
-          Bla bla bla - images below etc..
+          Please find below the automated testing results. There is a traceability matrix and a JaCoCo coverage report.
           <br />
-          Will eventually comprise testing results and coverage reports for automated testing.
         </Text>
-        <CustomImage src={`${import.meta.env.BASE_URL}images/wk1-1.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/jacoco-report.png`} />
+        <CustomImage src={`${import.meta.env.BASE_URL}images/test-matrix.png`} />
+        <Text>
+          Please find below the test plan
+        </Text>
+        <CustomImage src={`${import.meta.env.BASE_URL}images/test-plan.png`} />
       </Stack>
     </>
   );

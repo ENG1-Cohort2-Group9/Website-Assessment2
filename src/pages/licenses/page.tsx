@@ -8,8 +8,8 @@ export default function LicensePage() {
 
   // Example data to display
   const exampleData: TLicense[] = [
-    { name: "Example License 1", url: "http://example.com/1", dependencies: [] },
-    { name: "Example License 2", url: "http://example.com/2", dependencies: [] },
+    { name: "", url: "", dependencies: [] },
+    { name: "", url: "", dependencies: [] },
   ];
 
   useEffect(() => {
