@@ -130,6 +130,18 @@ export function AppLayout() {
             external
           />
                     <CNavLink
+            to="https://drive.google.com/drive/folders/1J6WqC8ZL57_cKZNBVh6YP5StXt0D0F5L"
+            label="Inherited Deliverables + Jar"
+            leftSection={
+              <Group>
+                <FaFilePdf />
+                <FaJava />
+              </Group>
+            }
+            rightSection={<FaExternalLinkAlt opacity={0.5} />}
+            external
+          />
+                    <CNavLink
             to="https://www.dropbox.com/scl/fi/985mr4175hphiokng6aur/User-Evaluation-for-UniSim.papert?rlkey=tvqapan8oved85lomq892k8tc&dl=0"
             label="User Evaluation"
             leftSection={<FaUsers />}

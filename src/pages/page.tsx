@@ -13,6 +13,7 @@ import Week10 from "./weeks/Week10";
 import Week11 from "./weeks/Week11";
 import { Link } from "react-router-dom";
 import { FaExternalLinkAlt, FaInfo } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
 
 export function RootPage() {
   const weeks = [Week1, Week2, Week3, Week4, Week5, Week6, Week7, Week8, Week9, Week10, Week11];
@@ -30,11 +31,11 @@ export function RootPage() {
             links
           </Text>
         </Alert>
-        <Title order={2}>Deliverables</Title>
+        <Title order={4}>Deliverables</Title>
         <NavLink
           label={"GitHub"}
           component={ReactNavLink}
-          to="https://github.com/archessmn/ENG1"
+          to="https://github.com/ENG1-Cohort2-Group9/Assessment-2"
           target={"_blank"}
           rel={"noopener noreferrer"}
           rightSection={<FaExternalLinkAlt opacity={0.5} />}
@@ -42,7 +43,24 @@ export function RootPage() {
         <NavLink
           label={"Deliverables + JAR"}
           component={ReactNavLink}
-          to="https://drive.google.com/drive/folders/1J6WqC8ZL57_cKZNBVh6YP5StXt0D0F5L?usp=sharing"
+          to="https://drive.google.com/drive/u/1/folders/1M3vroH6AywbhHFex6nZibBRfIAgvQYHz"
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          rightSection={<FaExternalLinkAlt opacity={0.5} />}
+        />
+        <NavLink
+          label={"Inherited Deliverables + JAR"}
+          component={ReactNavLink}
+          to="https://drive.google.com/drive/folders/1J6WqC8ZL57_cKZNBVh6YP5StXt0D0F5L"
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          rightSection={<FaExternalLinkAlt opacity={0.5} />}
+        />
+        <NavLink
+          component={ReactNavLink}
+          to="https://www.dropbox.com/scl/fi/985mr4175hphiokng6aur/User-Evaluation-for-UniSim.papert?rlkey=tvqapan8oved85lomq892k8tc&dl=0"
+          label={"User Evaluation"}
+          leftSection={<FaUsers />}
           target={"_blank"}
           rel={"noopener noreferrer"}
           rightSection={<FaExternalLinkAlt opacity={0.5} />}
